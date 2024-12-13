@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Новости Riot Games</title>
+<style>
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #323232;
+  color: rgb(168, 5, 5);
+  padding: 15px;
+  text-align: center;
+}
+
+nav {
+  background-color: #444;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Центрируем элементы меню */
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  display: block;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+main {
+  padding: 20px;
+}
+
+.news-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.news-item h3 {
+  margin-top: 0;
+}
+
+.news-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px; /* Место для изображения */
+  
+}
+
+footer {
+  background-color: #323232;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.search-bar {
+  width: 300px;
+  margin: 10px auto; /* Центрирование */
+  border: 1px solid #ccc;
+  padding: 8px;
+  
+}
+
+
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Новости Riot Games</h1>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#">Все новости</a></li>
+    <li><a href="#">Игры</a></li>
+    <li><a href="#">Спортивные события</a></li>
+    <li><a href="#">Акции</a></li>
+  </ul>
+</nav>
+
+<main>
+  <div class="news-item">
+    <h3>Новое обновление в League of Legends</h3>
+    <img src="лига легенд.jpg" alt="Изображение новости">
+    <p>Подробная информация о новейшем обновлении League of Legends, выходящем в ближайшие дни. </p>
+  </div>
+    <div class="news-item">
+        <h3>Новый герой в Valorant</h3>
+        <img src="вайс.jpg" alt="Изображение новости">
+        <p>Представляем вам нового героя в Valorant. Подробности о его возможностях вы найдете в статье!</p>
+    </div>
+  
+  <!-- Добавьте здесь больше новостей -->
+
+</main>
+
+<footer>
+  <p>&copy; 2023 Riot Games. Все права защищены.</p>
+</footer>
+  <input type="text" class="search-bar" placeholder="Поиск">  
+
+</body>
+</html>

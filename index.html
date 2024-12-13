@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riot Games</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            background-image: url("fone.jpg");/* Dark grey background */
+            color: #f5f5f5; /* Light grey text */
+        }
+
+        header {
+            background-color: #303030; /* Slightly lighter grey for header */
+            padding: 20px 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        h1, h2, h3 {
+            color: #f5f5f5; /* Light grey headings */
+        }
+
+        h1 {
+            font-size: 3em;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        nav li {
+            display: inline-block;
+            margin: 0 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #f5f5f5;
+            transition: color 0.3s ease; /* Smooth color transition */
+        }
+
+        nav a:hover {
+            color: #cc0000; /* Red on hover */
+        }
+
+        #showcase {
+            background-image: url("riot-games-banner1.png"); /* Replace with your image */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        #showcase h1 {
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+
+        #newsletter {
+            background-color: #303030;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        #newsletter input[type="email"] {
+            padding: 10px;
+            margin-right: 10px;
+            border: 1px solid #555;
+            background-color: #424242;
+            color: #f5f5f5;
+        }
+
+        #newsletter button {
+            background-color: #cc0000;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #newsletter button:hover {
+            background-color: #a40000; /* Darker red on hover */
+        }
+
+        #boxes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 40px 0;
+        }
+
+        .box {
+            width: 300px;
+            margin-bottom: 40px;
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #555;
+            background-color: #972828;
+        }
+
+        .box i {
+            font-size: 4em;
+            margin-bottom: 20px;
+            color: #cc0000;
+        }
+
+        footer {
+            background-color: #303030;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+
+    </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>
+        <img src="riot-games-logo.png" alt="Riot Games Logo" style="height: 50px;">  <!-- Replace with your logo -->
+      </h1>
+      <nav>
+        <ul>
+            
+            <a href="riot-help.html">Помощь</a> 
+            
+           <a href="riot-news.html">Новости</a>
+
+           <a href="riot-community.html">Сообщество</a>
+        </ul>
+      </nav>
+    </div>
+  </header>  
+  <main>
+    <section id="showcase">
+        <div class="container">
+            <h1>Добро пожаловать в мир Riot Games!</h1>
+            <p>
+                Здесь вы найдете последние новости, обновления и информацию о наших играх.
+            </p>
+        </div>
+    </section>
+    <section id="newsletter">
+      <div class="container">
+        <h2>Подписаться на рассылку</h2>
+        <form action="#">
+            <input type="email" placeholder="Ваш Email" style="width: 300px;">
+            <button class="button" type="submit">Подписаться</button>
+        </form>
+      </div>
+    </section>
+
+<section id="boxes">
+        <div class="container">
+            <div class="box">
+                <i class="fas fa-gamepad fa-6x"></i>
+                <h3>League of Legends</h3>
+                <p>Узнайте больше о легендарной MOBA.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-skull fa-6x"></i>
+                <h3>Teamfight Tactics</h3>
+                <p>Погрузитесь в мир стратегических сражений.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bolt fa-6x"></i>
+                <h3>Valorant</h3>
+                <p>Испытайте свои навыки в тактических перестрелках.</p>
+            </div>
+        </div>
+    </section>
+  </main>
+  <footer>
+    (c) 2024 Riot Games. Все права защищены.
+  </footer>
+</body>
+</html>
